@@ -1,3 +1,8 @@
+/*General styles start*/
+body{
+    margin:0;
+}
+/*General styles end*/
 /*The outer box styling start*/
 .image-box{
   width:300px;
@@ -51,4 +56,27 @@ li:before {
 }
 /*Rainbow gradient color end*/
 /*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+
+/*Fixed footer styles start*/
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    margin-top: 20px;
+}
+footer p{
+    padding-left: 40px;
+    margin: 0.5em;
+}
+/*Fixed footer styles end*/
+
+
+
+
+
 
