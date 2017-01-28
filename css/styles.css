@@ -56,7 +56,24 @@ li:before {
 }
 /*Rainbow gradient color end*/
 /*---------------------------------------------------------------*/
-
+/*Div in the middle of a div start*/
+div#middle-parent{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin: 50px;
+    background-color: yellow;
+}
+div#middle-parent>div#middle-child{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%,-50%);
+}
+/*Div in the middle of a div end*/
 /*---------------------------------------------------------------*/
 
 /*Fixed footer styles start*/
