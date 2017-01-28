@@ -59,8 +59,8 @@ li:before {
 /*Div in the middle of a div start*/
 div#middle-parent{
     position: relative;
-    width: 50vw;
-    height: 50vh;
+    width: 500px;
+    height: 500px;
     margin: 50px;
     background-color: yellow;
 }
@@ -74,6 +74,27 @@ div#middle-parent>div#middle-child{
     transform: translate(-50%,-50%);
 }
 /*Div in the middle of a div end*/
+/*---------------------------------------------------------------*/
+/*FONT AWSOME ICON STYLES START*/
+#icon{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#icon>i{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 7%;
+}
+#icon>i:hover{
+    background-color: green;
+    color:white;
+    border: 2px solid green;
+    transition: 1s all;
+}
+/*FONT AWSOME ICON STYLES END*/
 /*---------------------------------------------------------------*/
 
 /*Fixed footer styles start*/
